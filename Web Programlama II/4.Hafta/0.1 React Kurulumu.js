@@ -25,3 +25,4 @@
 
 //Kurulum tamamlanır ve web adresimiz hazır hale gelir.
 
+//"cd Klasör" ile Klasöre gidilir. Hemen ardından "npm run dev" ile proje ayağa kaldırılır.
