@@ -23,6 +23,4 @@
 
 //9-Vite beta kullanım isteğini geçiyoruz. Ve indirme isteğini kabul ediyoruz.
 
-//Kurulum tamamlanır ve web adresimiz hazır hale gelir.
-
 //"cd Klasör" ile Klasöre gidilir. Hemen ardından "npm run dev" ile proje ayağa kaldırılır.
