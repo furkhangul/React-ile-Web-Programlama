@@ -16,7 +16,6 @@ console.log(kisi)
 kisi.age = 15
 kisi.email  = "glfrkn@gmail.com"
 
-
 //Veya bunların içinde fonksiyonlar bile tutulabilmektedir.
 
 var book = {
