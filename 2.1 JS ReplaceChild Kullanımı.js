@@ -17,5 +17,3 @@ var eskiParagraf = document.querySelector("#intro1")
 var parent = eskiParagraf.parentNode
 
 parent.replaceChild(yeniParagraf, eskiParagraf)
-
-
