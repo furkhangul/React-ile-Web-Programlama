@@ -6,7 +6,6 @@ function UserInfo(){
             {UserId:1,UserName:"furkhangul",UserPass:"4686511f",UserEmail:"glfrkn@gmail.com"},
             {UserId:2,UserName:"zodialks",UserPass:"dfjknsm",UserEmail:"dflgnkkn@gmail.com"},
             {UserId:3,UserName:"kesdsua",UserPass:"gkjsl",UserEmail:"meauns@gmail.com"},
-
         ]
     }
     return(
