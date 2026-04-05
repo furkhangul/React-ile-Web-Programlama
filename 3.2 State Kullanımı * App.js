@@ -1,6 +1,4 @@
 import UserInfo from "./Components/UserInfo"
-
-
 function App(){
     return(
         <div>
