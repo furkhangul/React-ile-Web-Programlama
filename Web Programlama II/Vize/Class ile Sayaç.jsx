@@ -1,6 +1,11 @@
 import React,{Component} from "react"
 
 export default class Deneme extends Component{
+    //Sınıflar kullanılarak sayaç yapılmış. Bu sayaç fonksiyon ile oluşturulmadığından bir useState'e ihtiyaç duymaz.
+    //Classlar kendi içinde oluşturulmuş nesneleri this... olarak çağırmaktadır.
+    
+
+    
     state = {
         sayac : 0
     };
