@@ -10,3 +10,32 @@ d. Eğer sipariş henüz hazır değilse (başarısız), "Siparişiniz hazırlan
 
 Not: Siparişin hazırlanması için belirlenen süreyi ve hazırlık durumunu belirlemek için rastgele değerler kullanabilirsiniz. Gerekli javascript kodlarını yazınız.
 */
+
+
+function siparisHazirla(siparis){
+    return new Promise((resolve,reject)=>{
+        console.log(`Sipariş: ${siparis.urunAd} ${siparis.urunFiyat}`);
+        const zaman = Math.floor(Math.random() * 100);
+        setTimeout(()=>{
+            if(zaman < 5){
+                resolve("Sipariş Hazır !");
+            }
+            else{
+                reject("Siparişiniz hazırlanıyor lütfen bekleyiniz ! ");
+            }
+        },2000);
+    })
+}
+
+const siparis ={
+    urunAd:"Pizza",
+    urunFiyat: 20000
+}
+
+siparisHazirla(siparis)
+    .then((x)=>{
+        console.log(x);
+    })
+    .catch((x)=>{
+        console.log(x);
+    })
